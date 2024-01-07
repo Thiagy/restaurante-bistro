@@ -31,6 +31,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  
+}
+html, body {
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -446,6 +450,9 @@ body {
   background: rgb(66, 47, 4);
 }
 
+#whatsappIcon{
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;
